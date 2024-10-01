@@ -1,0 +1,18 @@
+let mode = "red"; 
+// A variable 'mode' is declared and assigned the value "red".
+
+let color = "";
+
+// A variable 'color' is declared and initialized with an empty string.
+
+if (mode === "dark") {
+    color = "black"; 
+    // If the value of 'mode' is exactly "dark", 
+    // the 'color' variable is assigned the value "black".
+} else {
+    color = "white"; 
+    // If the 'mode' is not "dark", the 'color' variable is assigned the value "white".
+}
+
+console.log(color);
+// The value of the 'color' variable is logged to the console.
